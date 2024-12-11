@@ -4,7 +4,6 @@ import cairo
 import numpy as np
 
 def draw_background(surface, tree_image, clouds):
-    """Menggambar langit biru, rumput hijau, pohon, dan awan di layar."""
     width, height = surface.get_width(), surface.get_height()
 
 
